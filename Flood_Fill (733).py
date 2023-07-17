@@ -24,7 +24,7 @@ def flood_fill(image, sr: int, sc: int, color: int):
         flood_fill(image, sr, sc+1, color)
     return image
 
-
+# tests
 if __name__ == '__main__':
     print(flood_fill([[1, 1, 1], [1, 1, 0], [1, 0, 1]], 1, 1, 2) == [[2, 2, 2], [2, 2, 0], [2, 0, 1]])
     print(flood_fill([[0, 0, 0], [0, 0, 0]], 0, 0, 0) == [[0, 0, 0], [0, 0, 0]])
