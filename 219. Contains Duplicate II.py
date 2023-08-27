@@ -20,7 +20,7 @@ def contains_nearby_duplicate(nums: list[int], k: int) -> bool:
 
 
 if '__main__' == __name__:
-    assert contains_nearby_duplicate([1,2,3,1], 3) == True
-    assert contains_nearby_duplicate([1,0,1,1], 1) == True
-    assert contains_nearby_duplicate([1,2,3,1,2,3], 2) == False
+    assert contains_nearby_duplicate([1, 2, 3, 1], 3) == True
+    assert contains_nearby_duplicate([1, 0, 1, 1], 1) == True
+    assert contains_nearby_duplicate([1, 2, 3, 1, 2, 3], 2) == False
     print('All tests passed!')
